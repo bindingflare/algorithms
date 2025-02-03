@@ -56,7 +56,7 @@ class Solution {
 
                     currentLength = 2;
                 }
-                else { // prev state was decreasing
+                else { // prev state was increasing
                     if(currentLength > longestLength) // test on state change
                         longestLength = currentLength;
 
